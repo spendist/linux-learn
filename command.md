@@ -154,3 +154,6 @@ change master to master_host='192.168.0.8',    master_user='root',  master_passw
 # redis-server redis-cli #
 内存使用的另外一种用法
 
+# 安装 php-calendar @ 192.168.0.8
+download and move to /var/www/html
+
