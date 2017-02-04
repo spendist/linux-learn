@@ -144,13 +144,13 @@ show master status;
 change master to master_host='192.168.0.8',    master_user='root',  master_password='pzgzy457',master_log_file='mysql-bin.000002',master_log_pos=9920;
 ...
 
-###### arp-scan 
+# arp-scan #
 # arp-scan --interface=eth1 192.168.100.0/29 
 # arp-scan --interface=eth0 --localnet --ouifile=/usr/share/ieee-oui.txt
 
 ##### Memcache 使用， 它用来在内存中保存一个二维表，有key,有value， 以服务形式提供
 
 
-##### redis-server redis-cli
+# redis-server redis-cli #
 内存使用的另外一种用法
 
