@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+main(int argc,char *argv[])
 {
 	int i,j;
 	for (i=1;i<10;i++) {
