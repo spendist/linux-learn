@@ -1,0 +1,80 @@
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=gbk"/>
+<title>内部发送短信</title>
+<script type="text/javascript" src="allchecked_js/allchecked.js">
+function check()
+{
+	var all=document.getElementsByName("choice");
+	for(var i=0;i<all.length;i++)
+	{
+		if(document.getElementById("allchecked").checked==true)
+		{
+			all[i].checked==true;
+		}
+		else
+		 {   all[i].checked==false;}
+	}
+}
+
+
+
+
+</script>
+
+<body>
+<center>
+<table width="400">
+<tr><td align="center"><h1>给本部门联系人发送短信</h1>
+	<form id="form1" name="form1" method="post" action="sendsms.php">
+	<table width="100%" border=1 bordercolor="#333333">
+	<tr><td align="center" bgcolor="#9999FF"><strong>短信发送给</strong></td>
+	<tr><td align="left">
+<table>
+	<tr>
+		<td><input type="checkbox" checked="checked" name="User01" value="13908062002">章鸿</td>
+		<td><input type="checkbox" checked="checked" name="User02" value="13708208589">邹文凯</td>
+		<td><input type="checkbox" checked="checked" name="User03" value="13689000911">陈杰</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" checked="checked" name="User04" value="13228105227">唐明剑</td>
+		<td><input type="checkbox" checked="checked" name="User05" value="13880229569">陈学究</td>
+		<td><input type="checkbox" checked="checked" name="User06" value="13808051315">舒山</td>
+		<td><input type="checkbox" checked="checked" name="User07" value="13881808802">于俊杰</td>
+		<td><input type="checkbox" checked="checked" name="User08" value="13228103863">张磊</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" checked="checked" name="User09" value="13438336653">张鸿</td>
+		<td><input type="checkbox" checked="checked" name="User10" value="13708208589">李忠民</td>
+		<td><input type="checkbox" checked="checked" name="User11" value="13980086012">王丽芳</td>
+		<td><input type="checkbox" checked="checked" name="User11" value="13281121118">艾雪</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	</tr>
+	<tr>
+		<td><input type="checkbox" checked="checked" name="User12" value="13350852070">官元军</td>
+		<td><input type="checkbox" checked="checked" name="User12" value="13808232038">陈平先</td>
+		<td><input type="checkbox" checked="checked" name="User13" value="13550225979">彭江涛</td>
+		<td><input type="checkbox" checked="checked" name="User14" value="18608017865">陈晓东</td>
+		<td>&nbsp;</td>
+	</tr>
+		<td colspan=5>其他人员<input type="text" name="UserXX" value="" maxlength=12> </td>
+	</tr>
+</table>
+		</td>
+	<tr><td align="center" bgcolor="#9999FF"><strong>短信内容</strong></td></tr>
+	<tr><td><textarea id="content" name="Content" cols="128" rows="4"></textarea></td></tr>
+<tr><td align="center"><input type="submit" name="send" value="立即发送"></td>
+</tr>
+</table>
+</form>
+</tr></td>
+<tr><td height="48" align="center" aligh=center>Copyright by <strong><a href="http://www.scrcu.com/">SCRCU.COM</a></strong></td>
+</tr>
+</table>
+
+
+</body>
+</html>

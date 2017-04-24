@@ -1,0 +1,36 @@
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=gbk"/>
+<title>内部发送短信</title>
+<body>
+<center>
+<table width="400">
+<tr><td align="center"><h1>给本部门联系人发送短信</h1>
+	<form id="form1" name="form1" method="post" action="sendsms.php">
+	<table width="100%" border=1 bordercolor="#333333">
+	<tr><td align="center" bgcolor="#9999FF"><strong>短信发送给</strong></td>
+	<tr><td align="left">
+ 		<input type="checkbox" name="User01" value="13550225979">彭江涛<br>
+		<input type="checkbox" name="User02" value="18908099090">王楠<br>
+		<input type="checkbox" name="User03" value="13550297848">黄伟<br>
+		<input type="checkbox" name="User04" value="13882226115">保睿<br>
+		<input type="checkbox" name="User05" value="13540360551">王维知<br>
+		<input type="checkbox" name="User06" value="13880411486">唐丽华<br>
+			其他人员<input type="text" name="UserXX" value="" maxlength=12> 
+	</td>
+	</tr>
+	<tr><td align="center" bgcolor="#9999FF"><strong>短信内容</strong></td>
+	</tr>
+	<tr><td><textarea id="content" name="Content" cols="128" rows="4"></textarea></td></tr>
+<tr><td align="center"><input type="submit" name="send" value="立即发送"></td>
+</tr>
+</table>
+</form>
+</tr></td>
+<tr><td height="48" align="center" aligh=center>Copyright by <strong><a href="http://www.scrcu.com/">SCRCU.COM</a></strong></td>
+</tr>
+</table>
+
+
+</body>
+</html>
