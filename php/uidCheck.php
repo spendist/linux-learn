@@ -135,17 +135,7 @@ function Cal_Idchecksum($id)
 
 
 	$ret=CheckUID('Abda32720514481');    print_r($ret);echo "\n";
-	$ret=CheckUID('61213272051448p');    print_r($ret);echo "\n";
-	$ret=CheckUID('61213272051448');     print_r($ret);echo "\n";
-	$ret=CheckUID('612132720514481');    print_r($ret);echo "\n";
-	$ret=CheckUID('612132720514482');    print_r($ret);echo "\n";
-	$ret=CheckUID('61213219a205144811'); print_r($ret);echo "\n";
-	$ret=CheckUID('612132237205144811'); print_r($ret);echo "\n";
-	$ret=CheckUID('90213219720f144811'); print_r($ret);echo "\n";
-	$ret=CheckUID('6121321972051448g1'); print_r($ret);echo "\n";
-	$ret=CheckUID('61213219720514481X'); print_r($ret);echo "\n";
-	$ret=CheckUID('612132197205144811'); print_r($ret);echo "\n";
-	$ret=CheckUID('62262719850120181X'); print_r($ret);echo "\n";
-	$ret=CheckUID('510122197901030270'); print_r($ret);echo "\n";
+	$ret=CheckUID('61216272051448p');    print_r($ret);echo "\n";
+	$ret=CheckUID('510122198001030270'); print_r($ret);echo "\n";
 
 ?>
