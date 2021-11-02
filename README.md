@@ -19,5 +19,6 @@ how to use git: http://blog.csdn.net/hcbbt/article/details/11651229
 http://www.ibm.com/developerworks/cn/opensource/os-cn-zookeeper/index.html
 这篇文章演示了什么事  zookeeper, 用户分布式环境中数据管理。
 
+ite
 http://www.cnblogs.com/leesf456/p/6022357.html
 这篇文章演示小实验。
