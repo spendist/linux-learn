@@ -135,13 +135,13 @@ Zend OPcache
 
 
 主节点：
-GRANT REPLICATION SLAVE ON *.* TO 'root'@'192.168.0.6' IDENTIFIED BY 'pzgzy457'
+GRANT REPLICATION SLAVE ON *.* TO 'root'@'192.168.0.6' IDENTIFIED BY 'mima457'
 show master status; 
 输出pos=9920
 
 
 从节点：
-change master to master_host='192.168.0.8',    master_user='root',  master_password='pzgzy457',master_log_file='mysql-bin.000002',master_log_pos=9920;
+change master to master_host='192.168.0.8',    master_user='root',  master_password='mima457',master_log_file='mysql-bin.000002',master_log_pos=9920;
 ...
 
 # arp-scan #
